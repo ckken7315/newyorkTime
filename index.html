@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NY Times</title>
+
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+    <!--Begin Nav-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+        <a class="navbar-brand" href="#">NY Times Search</a>
+    </nav>
+    <!--End Nav-->
+
+    <br>
+
+    <main role="main" class="container">
+        <div class="jumbotron">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+                <a class="navbar-brand" href="#">Search Parameters</a>
+            </nav>
+            <br/>
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputName">Search Term:</label>
+                    <input type="text" class="form-control" id="search-term" placeholder="Enter Term">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Number of Records to Retrieve:</label>
+                    <select class="form-control" id="num-of-records">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputName">Start Year(Optional):</label>
+                    <input type="text" class="form-control" id="start-year" placeholder="Enter Year">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputName">End Year(Optional):</label>
+                    <input type="text" class="form-control" id="end-year" placeholder="Enter Year">
+                </div>
+                <button id="submitBtn" type="submit" class="btn btn-primary" value="Submit">Search</button>
+                <button id="clearBtn" type="reset" class="btn btn-primary" value="Reset">Clear Results</button>
+        </div>
+        <main role="main" class="container">
+            <div class="jumbotron">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+                    <a class="navbar-brand" href="#">Top Articles</a>
+                </nav>
+            </div>
+        </main>
+        </form>
+        </div>
+    </main>
+</body>
+
+</html>
